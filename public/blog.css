@@ -1,0 +1,47 @@
+*{
+   box-sizing: border-box;
+}
+
+.input_field{
+   position: relative;
+}
+
+.input_field .form-control{
+   padding-left: 40px;
+   background: #eeeeee;
+}
+
+.input_field i{
+   position: absolute;
+   top: 10px;
+   left: 10px;
+}
+
+.comment p{
+   background-color:rgb(191, 189, 187); 
+
+   border-top-left-radius:30px;
+   border-top-right-radius: 80px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 100px; 
+
+   width: fit-content;
+   height: fit-content;
+   padding: 3px;
+   
+}
+
+.cmt{   
+   font-size: 12px;
+}
+
+input.form-control, select.form-control{
+   background-color: rgb(245, 234, 220);
+}
+
+span.blogCount{
+   font-size: 24px;
+   margin-right: 75px;
+   margin-left: 50px;
+   color: rgb(69, 225, 249);
+}
